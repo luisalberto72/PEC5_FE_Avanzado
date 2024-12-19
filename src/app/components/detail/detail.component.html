@@ -1,0 +1,20 @@
+<div *ngIf="entity" class="detail-container animate__animated animate__fadeIn">
+    <h1>{{ entity.name }}</h1>
+    <button mat-button (click)="router.navigate(['/'])">Back</button>
+    <img [src]="entity.imageUrl" alt="{{ entity.name }}" />
+  
+    <button mat-raised-button (click)="toggleDetails()">Show All Details</button>
+  
+    <div *ngIf="showDetails" class="details">
+      <mat-accordion>
+        <mat-expansion-panel>
+          <mat-expansion-panel-header>
+            <mat-panel-title>Additional Information</mat-panel-title>
+          </mat-expansion-panel-header>
+          <p>{{ entity.description }}</p>
+        </mat-expansion-panel>
+      </mat-accordion>
+    </div>
+  </div>
+  
+  
