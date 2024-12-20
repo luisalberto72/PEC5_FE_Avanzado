@@ -8,5 +8,4 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'pec5_Fe_Avanzado_lmesamart_uoc';
 
-
 }
