@@ -34,8 +34,7 @@
             "ngswConfigPath": "ngsw-config.json",
             "outputHashing": "all",
             "sourceMap": false,
-            "optimization": true,
-            "baseHref": "/PEC5_FE_AvanzadoApp/"
+            "optimization": true
           },
           "configurations": {
             "production": {
