@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1734640680621,
+  "timestamp": 1734699418313,
   "index": "/PEC5_FE_AvanzadoApp/index.html",
   "assetGroups": [
     {
@@ -71,7 +71,7 @@
     "/PEC5_FE_AvanzadoApp/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "/PEC5_FE_AvanzadoApp/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "/PEC5_FE_AvanzadoApp/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/PEC5_FE_AvanzadoApp/index.html": "ee88aacb92c90ac3c268e66098cc8da2f110542c",
+    "/PEC5_FE_AvanzadoApp/index.html": "1884630939e82deec0ee08eaa1928444b20778a6",
     "/PEC5_FE_AvanzadoApp/main.04bb2bf084ea240b.js": "c0edaa47fc09cc689e2ab24b77f33670e0ffe1a3",
     "/PEC5_FE_AvanzadoApp/manifest.webmanifest": "25dc9c8037dca6024f30efe92c4692df12c397fe",
     "/PEC5_FE_AvanzadoApp/polyfills.c8554829201e5b34.js": "8858707f2b62dc1febacad8db91adbd96199eafd",

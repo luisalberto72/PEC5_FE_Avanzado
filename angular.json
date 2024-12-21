@@ -13,10 +13,6 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputHashing": "all",
-            "sourceMap": false,
-            "optimization": true,
-             "baseHref": "/PEC5_FE_AvanzadoApp/",
             "outputPath": "dist/pec5-fe-avanzado-lmesamart-uoc",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -35,18 +31,28 @@
             ],
             "scripts": [],
             "serviceWorker": true,
-            "ngswConfigPath": "ngsw-config.json"
+            "ngswConfigPath": "ngsw-config.json",
+            "outputHashing": "all",
+            "sourceMap": false,
+            "optimization": true,
+            "baseHref": "/PEC5_FE_AvanzadoApp/"
           },
           "configurations": {
             "production": {
               "budgets": [
-  {
-    "type": "initial",
-    "maximumWarning": "2mb",
-    "maximumError": "5mb"
-  }
-],
-              "outputHashing": "all"
+                {
+                  "type": "initial",
+                  "maximumWarning": "2mb",
+                  "maximumError": "5mb"
+                }
+              ],
+              "outputHashing": "all",
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.prod.ts"
+                }
+              ]
             },
             "development": {
               "buildOptimizer": false,
